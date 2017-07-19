@@ -1,0 +1,38 @@
+
+#toggle-view {
+	list-style:none;	
+	/* font-family:arial; */
+	/* font-size:12px; */
+	margin:0;
+	padding:0;
+	width:98%;
+}
+
+#toggle-view li {
+	margin-top: 10px;
+	/* margin-bottom:10px; */
+	border-bottom:1px solid #ccc;
+	position:relative;
+}
+
+#toggle-view h3 {
+	padding-bottom:10px;
+	font: bold 18px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+	cursor:pointer;
+}
+
+#toggle-view span#plus {
+	position:absolute;
+	right:5px; top:0;
+	color:#ccc;
+	padding-top:5px;
+	font: bold 18px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+	cursor:pointer;
+}
+
+
+
+#toggle-view .panel {
+	/* margin:5px 0; */
+	display:none;
+}

@@ -1,0 +1,80 @@
+.glossymenu{
+margin: 1px;
+padding: 1px;
+width: 98%; /*width of menu*/
+	/* border: none; */
+/* border: 1px solid #9A9A9A; */
+/* border-bottom-width: 0; */
+}
+
+.glossymenu a.menuitem{
+/* background: black url(img/glossyback.gif) repeat-x bottom left; */
+font: bold 14px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color: white;
+display: block;
+position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+width: auto;
+padding: 4px 0;
+padding-left: 10px;
+text-decoration: none;
+
+background: rgb(96,108,136); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(96,108,136,1) 0%, rgba(63,76,107,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(96,108,136,1)), color-stop(100%,rgba(63,76,107,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=1 ); /* IE6-9 */
+	
+}
+
+
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active{
+color: white;
+}
+
+.glossymenu a.menuitem .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
+position: absolute;
+top: 5px;
+right: 5px;
+border: none;
+}
+
+.glossymenu a.menuitem:hover{
+	/* background-image: url(img/menu/glossyback2.gif); */
+	color:red;
+}
+
+.glossymenu div.submenu{ /*DIV that contains each sub menu*/
+background: white;
+}
+
+.glossymenu div.submenu ul{ /*UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.glossymenu div.submenu ul li{
+/* border-bottom: 1px solid blue; */
+	border-bottom:1px solid #5c5c5c;
+	border-top:1px solid rgba(255,255,255,.2);
+}
+
+.glossymenu div.submenu ul li a{
+display: block;
+font: normal 13px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color: black;
+text-decoration: none;
+padding: 2px 0;
+padding-left: 10px;
+}
+
+.glossymenu div.submenu ul li a:hover{
+/* background: #DFDCCB; */
+color: white;
+/* background:black; */
+	background:rgba(0,0,0,.9);
+	box-shadow:inset 0px, 3px, 2px rgba(0,0,0,1);
+}
